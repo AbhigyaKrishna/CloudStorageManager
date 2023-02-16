@@ -1,0 +1,10 @@
+import 'package:cloud_storage_manager/controller/mediafire_api_service.dart';
+
+abstract class ApiService {
+  Future<void> load();
+}
+
+// MediaFire token: 94ca06d0e031a2524d65d860ad504aed472f27fc07f96b4e91c86d30663e8ddd6b41543f8a734a8384c95b2bac9d2d718351001f448691e683a9a4035acf56a64ba36811314f7b94
+
+MediaFireApiService mediaFireService = MediaFireApiService(
+    "94ca06d0e031a2524d65d860ad504aed472f27fc07f96b4e91c86d30663e8ddd6b41543f8a734a8384c95b2bac9d2d718351001f448691e683a9a4035acf56a64ba36811314f7b94");
